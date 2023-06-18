@@ -1,4 +1,4 @@
-package com.springboot.inventoryservice.model;
+package main.java.com.springboot.inventoryservice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,4 +20,7 @@ public class Inventory {
 
     private String skuCode;
     private Integer quantity;
+
+    public void setSkuCode(String samsungA30s) {
+    }
 }
